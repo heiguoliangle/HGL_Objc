@@ -68,6 +68,8 @@
     self.dataSouce = dataSouce;
     [self.view addSubview:tableView];
     self.tableView = tableView;
+    
+    
 }
 
 

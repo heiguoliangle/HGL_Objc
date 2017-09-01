@@ -28,3 +28,6 @@ heiguoliangle, heiguoliangle@163.com
 
 HGL_Objc is available under the MIT license. See the LICENSE file for more info.
 # HGL_Objc
+
+	1. 将数据源单独处理,方便之后维护或者更换
+
