@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HGL_Objc_Example' do
+  pod 'HGL_Objc', :path => '../'
+
+  target 'HGL_Objc_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
