@@ -1,0 +1,16 @@
+PODS:
+  - HGL_Objc (0.1.0)
+
+DEPENDENCIES:
+  - HGL_Objc (from `../`)
+
+EXTERNAL SOURCES:
+  HGL_Objc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HGL_Objc: 453b08ff4c75c27929ed67ddc3f50e311c0bb7de
+
+PODFILE CHECKSUM: c6996702e9ef129cf2e5049a2ca844a673f1a39e
+
+COCOAPODS: 1.2.0

@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09923F3F055D8C1D8D3436BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		09923F3F055D8C1D8D3436BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0A044CF9C1F0CC1BF3DAD3F1 /* Pods-HGL_Objc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGL_Objc_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGL_Objc_Tests/Pods-HGL_Objc_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		28791923D8101F5C32D55E1A /* Pods-HGL_Objc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGL_Objc_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGL_Objc_Example/Pods-HGL_Objc_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HGL_Objc_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGL_Objc_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,8 +61,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8CA20C01C7DC77C737B5B77C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8E21B6F916C5A95431E0B50B /* HGL_Objc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HGL_Objc.podspec; path = ../HGL_Objc.podspec; sourceTree = "<group>"; };
+		8CA20C01C7DC77C737B5B77C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8E21B6F916C5A95431E0B50B /* HGL_Objc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HGL_Objc.podspec; path = ../HGL_Objc.podspec; sourceTree = "<group>"; };
 		AA3907583E992F372B7C03F3 /* Pods-HGL_Objc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGL_Objc_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGL_Objc_Tests/Pods-HGL_Objc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CFA0139392374A9A01FBF1DA /* Pods_HGL_Objc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGL_Objc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7EA364C63F4469031EC88C7 /* Pods_HGL_Objc_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGL_Objc_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = heiguoliangle;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = KUWC22M6K3;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -524,6 +527,7 @@
 			baseConfigurationReference = F1A8CEA8ED70C52B1B0E1BD8 /* Pods-HGL_Objc_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KUWC22M6K3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HGL_Objc/HGL_Objc-Prefix.pch";
 				INFOPLIST_FILE = "HGL_Objc/HGL_Objc-Info.plist";
@@ -539,6 +543,7 @@
 			baseConfigurationReference = 28791923D8101F5C32D55E1A /* Pods-HGL_Objc_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KUWC22M6K3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HGL_Objc/HGL_Objc-Prefix.pch";
 				INFOPLIST_FILE = "HGL_Objc/HGL_Objc-Info.plist";

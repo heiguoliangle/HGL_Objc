@@ -1,0 +1,6 @@
+framework module HGL_Objc {
+  umbrella header "HGL_Objc-umbrella.h"
+
+  export *
+  module * { export * }
+}
