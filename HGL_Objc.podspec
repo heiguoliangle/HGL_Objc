@@ -91,8 +91,8 @@ HGL_Objc 针对objc的文章做代码层面的实现
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "HGL_Objc", "HGL_Objc/Classes/**/*.{h,m}"
+#s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
