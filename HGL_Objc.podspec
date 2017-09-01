@@ -64,7 +64,7 @@ HGL_Objc 针对objc的文章做代码层面的实现
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+   s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
